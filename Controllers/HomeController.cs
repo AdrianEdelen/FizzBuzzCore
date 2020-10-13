@@ -43,26 +43,19 @@ namespace FizzBuzzCore.Controllers
                 {
                     output.Append("FizzBuzz ");
                 } 
-                
                 else if (i % fizz == 0)
                 {
                     output.Append("Fizz ");
                 } 
-                
                 else if (i % buzz == 0)
                 {
                     output.Append("Buzz ");
                 } 
-
                 else
                 {
                     output.AppendLine(i.ToString());
                 }
-                
             }
-
-
-
             ViewData["Output"] = output.ToString();
             return View();
         }
