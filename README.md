@@ -1,7 +1,7 @@
 # Fizz Buzz MVC
 This is a port of the JavaScript challenge FizzBuzz demonstrating working with arrays and If/Else logic using a simple MVC design pattern
 
-for more of my work check out my [portfolio](https://adrianedelen.com)
+for more of my work check out my **[portfolio](https://adrianedelen.com)**
 ### the main Logic 
 ```csharp
 public IActionResult Solve(string input1, string input2, string input3, string input4)
