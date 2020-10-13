@@ -1,5 +1,6 @@
 # Fizz Buzz MVC
 This is a port of the JavaScript challenge FizzBuzz demonstrating working with arrays and If/Else logic using a simple MVC design pattern
+
 for more of my work check out my [portfolio](https://adrianedelen.com)
 ### the main Logic 
 ```csharp
