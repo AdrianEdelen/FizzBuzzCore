@@ -1,0 +1,32 @@
+﻿@{
+	ViewData["Title"] = "Solve";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+<form asp-action="Solve">
+	<div class="row">
+		<div class="col">
+			<input type="text" name="input1" placeholder="Min" />
+		</div>
+		<div class="col">
+			<input type="text" name="input2" placeholder="Max" />
+		</div>
+		<div class="col">
+			<input type="text" name="input3" placeholder="Fizz" />
+		</div>
+		<div class="col">
+			<input type="text" name="input4" placeholder="Buzz" />
+		</div>
+		<div class="col">
+			<button class="btn btn-secondary" type="submit">FizzBuzz</button>
+		</div>
+	</div>
+</form>
+
+<hr />
+<div class="row">
+	<div class="col">
+		@ViewData["Output"]
+	</div>
+</div>
